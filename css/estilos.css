@@ -32,6 +32,10 @@ p{
     padding: 0 20px;
 }
 
+.clr{
+    clear: both;
+}
+
 .btn{
     display: inline-block;
     font-size: 18px;
@@ -134,4 +138,39 @@ p{
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
+}
+
+/* Features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 20px;
+}
+
+.bg-gray{
+    background: #cfcfcf;
+    color: #333;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #1ddd95;
+    color: #333;
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 20px;
 }
